@@ -1,0 +1,47 @@
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #7159c1; /* Roxo da Rocketseat */
+}
+
+.post-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #7159c1; /* Roxo da Rocketseat */
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.form-textarea {
+  height: 150px;
+}
+
+.form-submit {
+  background-color: #f84a57; /* Vermelho da Rocketseat */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #cc3845; /* Vermelho mais escuro da Rocketseat */
+}
