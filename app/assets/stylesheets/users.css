@@ -1,0 +1,47 @@
+/* Estilos específicos para a página de criação de usuários */
+
+.user-form {
+  background-color: #fff; /* Fundo branco */
+  color: #333; /* Cor do texto */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  font-weight: bold;
+  color: #333; /* Cor padrão para o texto do rótulo */
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2; /* Fundo cinza claro */
+  color: #333; /* Cor do texto */
+}
+
+.actions .btn-submit {
+  background-color: #8257E5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions .btn-submit:hover {
+  background-color: #6236af;
+}

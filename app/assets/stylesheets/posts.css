@@ -1,47 +1,46 @@
-.form-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #7159c1; /* Roxo da Rocketseat */
-}
+/* Estilos para a página de criação de novos posts */
 
 .post-form {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  background-color: #1E1E1E; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
 }
 
-.form-field {
-  margin-bottom: 15px;
+.post-form h1 {
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  color: #8257E5; /* Cor roxa da Rocketseat */
 }
 
-.form-label {
-  font-weight: bold;
-  color: #7159c1; /* Roxo da Rocketseat */
+.field {
+  margin-bottom: 15px; /* Espaçamento inferior entre campos */
 }
 
-.form-input,
-.form-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: #333;
+.field label {
+  font-weight: bold; /* Texto em negrito */
+  color: #8257E5; /* Cor roxa da Rocketseat para o texto do rótulo */
 }
 
-.form-textarea {
-  height: 150px;
+.field input[type="text"],
+.field textarea {
+  width: 100%; /* Largura total do campo de entrada */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda com cor cinza */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: #444; /* Cor de fundo do campo */
+  color: #fff; /* Cor do texto do campo */
 }
 
-.form-submit {
-  background-color: #f84a57; /* Vermelho da Rocketseat */
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.actions .btn-submit {
+  background-color: #8257E5; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
 }
 
-.form-submit:hover {
-  background-color: #cc3845; /* Vermelho mais escuro da Rocketseat */
+.actions .btn-submit:hover {
+  background-color: #6236af; /* Cor de fundo do botão ao passar o mouse */
 }

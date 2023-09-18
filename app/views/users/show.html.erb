@@ -1,0 +1,15 @@
+<h1>Detalhes do Usuário</h1>
+
+  <div>
+    <strong>Nome:</strong> <%= @user.name %>
+  </div>
+
+  <div>
+    <strong>Email:</strong> <%= @user.email %>
+  </div>
+
+  <div>
+    <strong>Data de Registro:</strong> <%= @user.created_at.strftime('%d/%m/%Y') %>
+  </div>
+
+  <%= link_to "Voltar para a lista de usuários", users_path %>

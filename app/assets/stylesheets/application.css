@@ -1,5 +1,34 @@
-body {
+/* Estilos gerais para todas as telas */
+
+/* Estilo para cabeçalhos */
+h1, h2, h3 {
   font-family: Arial, sans-serif;
-  background-color: #7159c1; /* Roxo da Rocketseat */
-  color: #fff; /* Cor de texto branca para melhor legibilidade */
+  color: #333; /* Cor padrão para o texto */
+}
+
+/* Estilo para links */
+a {
+  color: #8257E5; /* Cor roxa da Rocketseat */
+  text-decoration: none;
+}
+
+/* Estilo para botões */
+.btn {
+  background-color: #8257E5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+.btn:hover {
+  background-color: #6236af; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o fundo */
+body {
+  background-color: #f2f2f2; /* Fundo cinza claro */
+  color: #333; /* Cor do texto */
 }

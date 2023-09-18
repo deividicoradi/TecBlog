@@ -1,0 +1,11 @@
+<h1>Lista de Usuários</h1>
+
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.name, user_path(user) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Voltar", root_path %>
