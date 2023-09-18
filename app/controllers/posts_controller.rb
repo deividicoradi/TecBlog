@@ -9,6 +9,9 @@ class PostsController < ApplicationController
   end
 
   def show
+    @post = Post.find(params[:id])
+    @comments = @post.comments
+    @comment = Comment.new  # Isso cria uma instância vazia para o formulário de comentário
   end
 
   def new

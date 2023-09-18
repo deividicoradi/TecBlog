@@ -1,0 +1,5 @@
+<%= form_with(model: [ @post, Comment.new ], local: true) do |form| %>
+  <%= form.hidden_field :authenticity_token, value: form_authenticity_token %>
+  <%= form.text_area :content, placeholder: 'Digite seu comentário aqui' %>
+  <%= form.submit 'Adicionar Comentário' %>
+<% end %>
